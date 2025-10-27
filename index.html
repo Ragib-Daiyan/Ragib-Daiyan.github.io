@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ragib Daiyan | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "Poppins", sans-serif;
+      background: #0d1117;
+      color: #e6edf3;
+      line-height: 1.6;
+    }
+    header {
+      background: #161b22;
+      padding: 20px 0;
+      text-align: center;
+      border-bottom: 2px solid #30363d;
+    }
+    header h1 {
+      font-size: 2.2em;
+      color: #58a6ff;
+    }
+    header p {
+      color: #8b949e;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #c9d1d9;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      color: #58a6ff;
+    }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      color: #58a6ff;
+      border-bottom: 1px solid #30363d;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+    .about p {
+      margin-bottom: 15px;
+      color: #b1bac4;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .project {
+      background: #161b22;
+      padding: 20px;
+      border-radius: 8px;
+      border: 1px solid #30363d;
+      transition: 0.3s;
+    }
+    .project:hover {
+      transform: translateY(-5px);
+      border-color: #58a6ff;
+    }
+    .project h3 {
+      color: #e6edf3;
+      margin-bottom: 10px;
+    }
+    .project p {
+      color: #b1bac4;
+      font-size: 0.9em;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      border-top: 1px solid #30363d;
+      color: #8b949e;
+    }
+    .social-icons a {
+      color: #58a6ff;
+      margin: 0 8px;
+      font-size: 1.3em;
+      transition: 0.2s;
+    }
+    .social-icons a:hover {
+      color: #1f6feb;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ragib Daiyan</h1>
+    <p>Student | Aspiring Computer Scientist | Problem Solver</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m <strong>Ragib Daiyan</strong>, a motivated student with a growing passion for computer science and technology. 
+       I enjoy solving complex problems, learning new programming concepts, and exploring how computers can make life easier and more creative.</p>
+    <p>Currently preparing for A-Level exams, I’m focused on building strong foundations in <strong>Mathematics</strong>, 
+       <strong>Physics</strong>, and <strong>Computer Science</strong>. I plan to pursue higher studies in the field of computing 
+       and eventually contribute to software innovation and AI research.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Sorting Algorithm Visualizer</h3>
+        <p>A Python-based visualization tool to help students understand how algorithms like Bubble Sort and Insertion Sort work step-by-step.</p>
+      </div>
+      <div class="project">
+        <h3>Personal Study Tracker</h3>
+        <p>A simple command-line app that tracks study sessions and progress over time, helping maintain motivation and consistency.</p>
+      </div>
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>This website — designed to showcase my growth, interests, and coding journey as I progress toward becoming a software developer.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Let’s connect! I’m open to collaborations, mentorship, and sharing ideas.</p>
+    <div class="social-icons">
+      <a href="https://github.com/Ragib-Daiyan" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:ragib@example.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Ragib Daiyan. All rights reserved.</p>
+  </footer>
+</body>
+</html>
